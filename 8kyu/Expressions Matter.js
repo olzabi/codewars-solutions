@@ -1,0 +1,6 @@
+// JavaScript
+// https://www.codewars.com/kata/5ae62fcf252e66d44d00008e
+function expressionMatter(a, b, c) {
+    let getTheMax = Math.max( a*(b+c), (a+b)*c, a+b+c, a*b*c);
+    return getTheMax;
+}
